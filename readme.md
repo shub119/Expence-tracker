@@ -1,1 +1,1 @@
-This expence traker is made on Vanila javascipt only
+This expence tracker is made on Vanila javascipt only
