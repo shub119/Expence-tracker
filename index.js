@@ -34,11 +34,8 @@ function addTransaction(e) {
     };
 
     transactions.push(transaction);
-
     addTransactionDOM(transaction);
-
     updateValues();
-
     updateLocalStorage();
 
     text.value = '';
@@ -72,7 +69,7 @@ function addTransactionDOM(transaction) {
   list.appendChild(item);
 }
 
-// Update the balance, income and expense
+// Update the balance, income and expenses
 function updateValues() {
   const amounts = transactions.map(transaction => transaction.amount);
 
